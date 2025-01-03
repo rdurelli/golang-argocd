@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: golang-config
 data:
-  secret: value
+  foo: bar
