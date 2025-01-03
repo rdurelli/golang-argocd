@@ -1,15 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: golang-app.yaml
+  name: golang-app
 spec:
   selector:
     matchLabels:
-      app: golang-app.yaml
+      app: golang-app
   template:
     metadata:
       labels:
-        app: golang-app.yaml
+        app: golang-app
     spec:
       containers:
         - name: golang-app.yaml
