@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: golang-app
+  name: golang-app.yaml
 spec:
   selector:
     matchLabels:
-      app: golang-app
+      app: golang-app.yaml
   template:
     metadata:
       labels:
-        app: golang-app
+        app: golang-app.yaml
     spec:
       containers:
-        - name: golang-app
+        - name: golang-app.yaml
           image: durellirsd/golang-argocd:v3
           resources:
             limits:
