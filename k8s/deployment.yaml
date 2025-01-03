@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: golang-app
-          image: durellirsd/golang-argocd:v2
+          image: durellirsd/golang-argocd:v3
           resources:
             limits:
               memory: "128Mi"
