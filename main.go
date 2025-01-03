@@ -9,5 +9,12 @@ func main() {
 			"message": "pong",
 		})
 	})
+
+	r.GET("/durelli", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "Rafael",
+		})
+	})
+
 	r.Run() // listen and serve on 0.0.0.0:8080
 }
