@@ -12,7 +12,7 @@ spec:
         app: golang-app
     spec:
       containers:
-        - name: golang-app.yaml
+        - name: golang-app
           image: durellirsd/golang-argocd:v3
           resources:
             limits:
